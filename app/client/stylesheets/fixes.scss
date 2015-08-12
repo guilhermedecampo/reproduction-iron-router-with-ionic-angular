@@ -1,0 +1,91 @@
+.has-tabs, .bar-footer.has-tabs{
+  margin-bottom: 10px;
+}
+
+.platform-ios.platform-cordova:not(.fullscreen) .bar-header:not(.bar-subheader) > * {
+  margin-top: 10px !important;
+}
+
+ // hack ionic
+.bar .title.title-left {
+text-align: center !important;
+}
+
+.no-border {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.bold {
+  font-weight: 800 !important;
+}
+
+.slick-slide, .slick-loading {
+  background:#eee url('images/loaderfinal2.gif') no-repeat center;
+}
+
+.no_standard {
+  overflow: none !important;
+  text-overflow: none !important;
+  white-space: normal !important;
+}
+
+.titles_terms {
+  padding: 10px 0 10px 0;
+  text-overflow: none !important;
+  white-space: normal !important;
+}
+
+.input-space {
+  bottom: 58px;
+}
+
+.span-input {
+  background: #FFF;
+  font-size: 1.0rem;
+  color: #9B9A9A;
+  line-height: initial;
+  margin-top: -5px;
+  height: 26px;
+}
+
+.item-select select {
+  top: 8px;
+}
+
+.item.select label.item {
+  padding-bottom: 10px;
+}
+
+.right-fix {
+  ppadding-top: 2px;
+}
+
+.platform-ios.placeholder-icon {
+  margin-top: -4px;
+}
+
+.platform-android.placeholder-icon {
+  margin-top: 4px;
+}
+
+.delivery-ways .item-select select  {
+  top: 20px;
+}
+
+.content-angular {
+  top: 60px;
+  bottom: 60px;
+}
+
+.container-feed {
+  width: 100%;
+}
+
+.comment-space {
+  bottom: 52px;
+}
+
+.ng-binding {
+  font-size: inherit;
+}

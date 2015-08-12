@@ -1,0 +1,29 @@
+<template name="Feed">
+  {{#ionView}}
+    {{#if Template.subscriptionsReady}}
+      <div ng-controller="FeedCtrl">
+        <ion-content class="content-angular">
+          <ion-refresher
+            pulling-text="Puxe para atualizar..."
+            on-refresh="updateFeed()">
+          </ion-refresher>
+          <ion-list>
+            <div class="container-feed">
+                <trendy-item
+                collection-repeat="item in items"
+                item-height="54px"
+                item-width="100%"
+                >
+                </trendy-item>
+            </div>
+          </ion-list>
+          <ion-infinite-scroll
+            ng-if="true"
+            on-infinite="updateFeed()"
+            distance="1%">
+          </ion-infinite-scroll>
+        </ion-content>
+      </div>
+    {{/if}}
+  {{/ionView}}
+</template>
